@@ -1,0 +1,64 @@
+.notFound{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 50px;
+    margin-left: 500px;
+    border-radius: 80px;
+    height: 300px;
+    max-width: 50vh;
+    min-width: 200px;
+}
+
+.containerCap{
+    padding: 1rem;
+    margin-top: 2rem;
+    display:flex;
+    background-color: rgba(95, 221, 70, 0.4);
+    border-radius: 50px;
+    box-shadow: 10px 9px 12px 5px rgb(0 0 0 / 50%);
+}
+.text{ 
+
+display: block;
+font-family: monospace;
+white-space: nowrap;
+font-size: 2.2rem;
+width: 56ch;
+color:rgb(0, 0, 0);
+animation: typing 2.5s steps(56), blink .5s infinite step-end alternate;
+overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink{
+    25% {border-color:transparent}
+}
+.azafataImg{
+    height: 25vh;
+}
+
+
+.button{
+    padding: 50px;
+    cursor: pointer;
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    width: 150px;
+    margin: 7px;
+    color: #ffffff;
+    background-color: rgb(95, 221, 70, 0.8);
+    border-radius: 8px;
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: box-shadow 200ms ease-out;
+    }
+

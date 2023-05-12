@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.detailContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.information {
+    background-color:rgb(95, 221, 70, 0.6);
+    box-shadow: 10px 9px 12px 5px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .flagImg {
+    max-width: 94%;
+    margin-top: 8px;
+    border-radius: 20px;
+  }
+
+  .actContainer {
+    background-color: rgba(100, 185, 235, 0.699);
+    box-shadow: 10px 9px 12px 5px rgb(0 0 0 / 50%);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+  }
+
+  .activities {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .createBtn{
+   border:3px solid #157930;
+    border-radius: 10px ;
+    background-color: #73ca89;
+    cursor: pointer;
+  }
+
+  .homeBtn{
+    
+    border:3px solid #157930;
+    border-radius: 10px ;
+    background-color: #73ca89;
+    cursor: pointer;
+    padding: 13px;
+  }
